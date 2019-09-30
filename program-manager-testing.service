@@ -1,0 +1,16 @@
+[Unit]
+Description=program-manager-testing service :-)
+
+[Service]
+User=lenny
+Group=users
+
+ExecStart=/usr/bin/node /home/lenny/gits/program-manager/output/service.js
+WorkingDirectory=/home/lenny/testing/fake-working-directory
+
+Environment=SOCKETMODE=true
+#Environment=PORT=6969
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

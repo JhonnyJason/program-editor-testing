@@ -1,0 +1,13 @@
+[req]
+default_bits = 4096
+prompt = no
+default_md = sha3-256
+distinguished_name = dn
+[dn]
+C = VP
+ST = Europe
+L = Graz
+O = weblenny
+OU = local development
+CN = weblenny
+emailAddress = lenny09918050@gmail.com
