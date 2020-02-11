@@ -1,5 +1,0 @@
-[Socket]
-ListenStream=/run/program-manager-testing.sk
-
-[Install]
-WantedBy=sockets.target

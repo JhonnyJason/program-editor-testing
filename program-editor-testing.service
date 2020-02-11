@@ -1,11 +1,11 @@
 [Unit]
-Description=program-manager-testing service :-)
+Description=program-editor-testing service :-)
 
 [Service]
 User=lenny
 Group=users
 
-ExecStart=/usr/bin/node /home/lenny/gits/program-manager/output/service.js
+ExecStart=/usr/bin/node /home/lenny/gits/program-editor/output/service.js
 WorkingDirectory=/home/lenny/testing/fake-working-directory
 
 Environment=SOCKETMODE=true
